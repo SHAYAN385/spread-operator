@@ -7,8 +7,18 @@
     ]
 ]
 
-const e = [...d]
+ const e = [...d]
     console.log(e)
 
-
- 
+const a1 = {
+    bikes: {
+        variants: {
+            bikes1: 70,
+            bikes2: 110,
+            bikes3: 125,
+            bikes4: 150,
+         }
+    }
+}
+ const b1 = {...a1.bikes.variants}
+ console.log(b1);
